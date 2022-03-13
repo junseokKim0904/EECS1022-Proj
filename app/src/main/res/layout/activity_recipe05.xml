@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    tools:context=".recipe05_Activity">
+
+    <TextView
+        android:id="@+id/nutrition_detail"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="nutrition_detail"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nutrition_main" />
+
+    <TextView
+        android:id="@+id/nutrition_main"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="nutrition_main"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direction_detail" />
+
+    <TextView
+        android:id="@+id/direction_detail"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="direction_detail"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direction_main" />
+
+    <TextView
+        android:id="@+id/direction_main"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="direction_main"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb07" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb07"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="ingred_cb07"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb06" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb05"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="ingred_cb05"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb04" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb06"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="ingred_cb06"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb05" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb02"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="ingred_cb02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb01" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb03"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="ingred_cb03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb02" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb04"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="ingred_cb04"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb03" />
+
+    <TextView
+        android:id="@+id/ingredients_main"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="ingredients_main"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/servings_main" />
+
+    <TextView
+        android:id="@+id/servings_main"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="servings_main"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cookingtime_main" />
+
+    <TextView
+        android:id="@+id/cookingtime_main"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="cookingtime_main"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preptime_main" />
+
+    <TextView
+        android:id="@+id/cookingtime_detail"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="cookingtime_detail"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/preptime_main"
+        app:layout_constraintTop_toBottomOf="@+id/preptime_detail" />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="213dp"
+        android:layout_height="92dp"
+        android:gravity="center"
+        android:text="title"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description_main"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="description_main"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title" />
+
+    <TextView
+        android:id="@+id/description_detail"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="description_detail"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_main" />
+
+    <TextView
+        android:id="@+id/preptime_main"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="preptime_main"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_detail" />
+
+    <TextView
+        android:id="@+id/preptime_detail"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="preptime_detail"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/preptime_main"
+        app:layout_constraintTop_toBottomOf="@+id/description_detail" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb01"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="ingred_cb01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
+
+    <Button
+        android:id="@+id/return_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nutrition_detail" />
+
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="-"
+        android:textSize="14sp"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintEnd_toStartOf="@+id/servingCount"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/servings_main"
+        app:layout_constraintTop_toBottomOf="@+id/cookingtime_detail" />
+
+    <TextView
+        android:id="@+id/servingCount"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="0 Bowl"
+        app:layout_constraintEnd_toStartOf="@+id/increment"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/decrement"
+        app:layout_constraintTop_toBottomOf="@+id/cookingtime_detail" />
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="+"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/servingCount"
+        app:layout_constraintTop_toTopOf="@+id/servingCount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
