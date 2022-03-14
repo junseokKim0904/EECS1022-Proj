@@ -57,8 +57,7 @@
         android:layout_height="25dp"
         android:text="ingred_cb07"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ingred_tv07"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb06" />
 
@@ -170,11 +169,12 @@
         android:id="@+id/ingred_tv07"
         android:layout_width="0dp"
         android:layout_height="25dp"
+        android:layout_marginTop="48dp"
         android:text="ingred_tv07"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ingred_cb07"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_tv06" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb06"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv05" />
 
     <TextView
         android:id="@+id/ingredients_main"
