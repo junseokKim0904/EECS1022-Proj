@@ -213,6 +213,7 @@
         android:layout_height="25dp"
         android:text="ingred_cb01"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
 
@@ -258,5 +259,12 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/servingCount"
         app:layout_constraintTop_toTopOf="@+id/servingCount" />
+
+    <CheckBox
+        android:id="@+id/title_cd"
+        android:layout_width="32dp"
+        android:layout_height="43dp"
+        app:layout_constraintStart_toStartOf="@+id/main_title"
+        app:layout_constraintTop_toTopOf="@+id/main_title" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

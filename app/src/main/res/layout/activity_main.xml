@@ -467,7 +467,7 @@
         app:layout_constraintVertical_bias="0.163" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/receipe01_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -486,7 +486,7 @@
         app:layout_constraintVertical_bias="0.282" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/receipe02_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -505,7 +505,7 @@
         app:layout_constraintVertical_bias="0.325" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/receipe03_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -538,7 +538,7 @@
         app:layout_constraintVertical_bias="0.235" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/receipe01_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
@@ -550,7 +550,7 @@
         app:layout_constraintVertical_bias="0.282" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/receipe02_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
@@ -562,7 +562,7 @@
         app:layout_constraintVertical_bias="0.325" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/receipe03_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
