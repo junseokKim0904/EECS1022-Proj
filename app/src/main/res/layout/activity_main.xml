@@ -449,7 +449,7 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/rec_key_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -467,7 +467,7 @@
         app:layout_constraintVertical_bias="0.163" />
 
     <Button
-        android:id="@+id/receipe01_bt"
+        android:id="@+id/recipe_a1_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -486,7 +486,7 @@
         app:layout_constraintVertical_bias="0.282" />
 
     <Button
-        android:id="@+id/receipe02_bt"
+        android:id="@+id/recipe_a2_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -505,7 +505,7 @@
         app:layout_constraintVertical_bias="0.325" />
 
     <Button
-        android:id="@+id/receipe03_bt"
+        android:id="@+id/recipe_a3_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -538,7 +538,7 @@
         app:layout_constraintVertical_bias="0.235" />
 
     <CheckBox
-        android:id="@+id/receipe01_cb"
+        android:id="@+id/recipe_a1_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
@@ -550,7 +550,7 @@
         app:layout_constraintVertical_bias="0.282" />
 
     <CheckBox
-        android:id="@+id/receipe02_cb"
+        android:id="@+id/recipe_a2_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
@@ -562,7 +562,7 @@
         app:layout_constraintVertical_bias="0.325" />
 
     <CheckBox
-        android:id="@+id/receipe03_cb"
+        android:id="@+id/recipe_a3_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
@@ -574,7 +574,7 @@
         app:layout_constraintVertical_bias="0.368" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/recipe_b3_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -593,7 +593,7 @@
         app:layout_constraintVertical_bias="0.554" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/recipe_b2_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -612,7 +612,7 @@
         app:layout_constraintVertical_bias="0.512" />
 
     <CheckBox
-        android:id="@+id/checkBox15"
+        android:id="@+id/recipe_b2_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
@@ -624,7 +624,7 @@
         app:layout_constraintVertical_bias="0.512" />
 
     <CheckBox
-        android:id="@+id/checkBox16"
+        android:id="@+id/recipe_b3_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
@@ -636,7 +636,7 @@
         app:layout_constraintVertical_bias="0.554" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/recipe_b1_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="75dp"
         android:layout_height="30dp"
@@ -655,7 +655,7 @@
         app:layout_constraintVertical_bias="0.469" />
 
     <CheckBox
-        android:id="@+id/checkBox17"
+        android:id="@+id/recipe_b1_cb"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""

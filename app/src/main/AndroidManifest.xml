@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecipeApp">
         <activity
+            android:name=".KeywordList"
+            android:exported="false"
+            android:label="@string/title_activity_keyword_list"
+            android:theme="@style/Theme.RecipeApp.NoActionBar" />
+        <activity
             android:name=".recipe05_Activity"
             android:exported="false" />
         <activity
