@@ -10,6 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecipeApp">
         <activity
+            android:name=".recipe10_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe10"
+            android:theme="@style/Theme.RecipeApp.NoActionBar" />
+        <activity
+            android:name=".recipe09_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe09"
+            android:theme="@style/Theme.RecipeApp.NoActionBar" />
+        <activity
+            android:name=".recipe08_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe08"
+            android:theme="@style/Theme.RecipeApp.NoActionBar" />
+        <activity
+            android:name=".recipe07_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe07"
+            android:theme="@style/Theme.RecipeApp.NoActionBar" />
+        <activity
+            android:name=".recipe06_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe06"
+            android:theme="@style/Theme.RecipeApp.NoActionBar" />
+        <activity
             android:name=".KeywordList"
             android:exported="false"
             android:label="@string/title_activity_keyword_list"
