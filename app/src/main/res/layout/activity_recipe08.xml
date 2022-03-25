@@ -234,7 +234,7 @@
         android:id="@+id/description_detail"
         android:layout_width="407dp"
         android:layout_height="45dp"
-        android:text="A Bacon Egg Cheese Bagel is a bagel with scambled eggs, bacon and cheese inside it and it tastes amazing!"
+        android:text="A Bacon Egg Cheese Bagel is a bagel with scambled eggs, bacon and cheese inside it and it tastes amazing."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
