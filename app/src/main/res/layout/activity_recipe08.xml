@@ -11,7 +11,6 @@
         android:id="@+id/nutrition_detail"
         android:layout_width="409dp"
         android:layout_height="45dp"
-        android:layout_marginTop="8dp"
         android:text="Per Serving: 465 Calories; 19g Protein; 31g Fat; Carbohydrates 26g."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +22,6 @@
         android:id="@+id/nutrition_main"
         android:layout_width="408dp"
         android:layout_height="27dp"
-        android:layout_marginTop="4dp"
         android:text="Nutritional Value:"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -34,13 +32,12 @@
 
     <TextView
         android:id="@+id/direction_detail"
-        android:layout_width="407dp"
-        android:layout_height="135dp"
-        android:layout_marginTop="4dp"
-        android:text="1: Grease the cups of the pan and put 1 egg and 1 teaspoon of milk in each muffin cup. 2: Scramble the eggs in each muffic cup then bake them at 350 for 15 minutes. 3: Put a mini-bagel in the toaster, then add the scambled egg patty, 2 slices of bacon and a slide of cheese inside the bagel and heat it in the microwave for 15-20 seconds."
+        android:layout_width="410dp"
+        android:layout_height="140dp"
+        android:text="1: Grease the cups of the pan and put 1 egg and 1 teaspoon of milk in each muffin cup. \n2: Scramble the eggs in each muffic cup then bake them at 350 for 15 minutes. \n3: Put a mini-bagel in the toaster, then add the scambled egg patty, 2 slices of bacon and a slide of cheese inside the bagel and heat it in the microwave for 15-20 seconds."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/direction_main" />
 
@@ -198,8 +195,8 @@
 
     <TextView
         android:id="@+id/cookingtime_detail"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
+        android:layout_width="205dp"
+        android:layout_height="30dp"
         android:text="15 minutes"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -275,15 +272,13 @@
 
     <Button
         android:id="@+id/return_button"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:text="Return"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nutrition_detail"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/decrement"

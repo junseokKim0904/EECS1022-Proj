@@ -8,118 +8,24 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/main_es_bt"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
+        android:layout_width="95dp"
         android:layout_height="30dp"
         android:backgroundTint="#ffffff"
+        android:gravity="start"
         android:paddingLeft="5dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
-        android:text="Recipe 1"
+        android:text="Egg Salad"
         android:textAllCaps="false"
         android:textColor="#006aff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
-
-    <Button
-        android:id="@+id/button23"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 3"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="D"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.645"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235" />
-
-    <CheckBox
-        android:id="@+id/checkBox21"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
-
-    <CheckBox
-        android:id="@+id/checkBox22"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
-
-    <Button
-        android:id="@+id/button24"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 3"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
-
-    <Button
-        android:id="@+id/button27"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 2"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325" />
+        app:layout_constraintVertical_bias="0.658" />
 
     <CheckBox
         android:id="@+id/checkBox23"
@@ -128,72 +34,10 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
-
-    <Button
-        android:id="@+id/button28"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 2"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
-
-    <CheckBox
-        android:id="@+id/checkBox24"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325" />
-
-    <CheckBox
-        android:id="@+id/checkBox25"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
-
-    <Button
-        android:id="@+id/button29"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 1"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.658" />
 
     <TextView
         android:id="@+id/textView11"
@@ -204,47 +48,63 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <Button
+        android:id="@+id/main_mp_bt"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="133dp"
+        android:layout_height="29dp"
+        android:backgroundTint="#ffffff"
+        android:gravity="start"
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="Mashed Potatoes"
+        android:textAllCaps="false"
+        android:textColor="#006aff"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42" />
 
     <CheckBox
-        android:id="@+id/checkBox26"
+        android:id="@+id/checkBox29"
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
-
-    <Button
-        android:id="@+id/button30"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 2"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintVertical_bias="0.467" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="F"
+        android:text="V"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -266,148 +126,58 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.66" />
 
-    <CheckBox
-        android:id="@+id/checkBox28"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
-
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/main_vo_bt"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
+        android:layout_width="141dp"
         android:layout_height="30dp"
         android:backgroundTint="#ffffff"
+        android:gravity="start"
         android:paddingLeft="5dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
-        android:text="Recipe 3"
+        android:text="Vegetarian Omelet"
         android:textAllCaps="false"
         android:textColor="#006aff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
-
-    <CheckBox
-        android:id="@+id/checkBox29"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
-
-    <Button
-        android:id="@+id/button26"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 1"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintHorizontal_bias="0.962"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.66" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/main_hummus_bt"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
+        android:layout_width="87dp"
+        android:layout_height="29dp"
         android:backgroundTint="#ffffff"
         android:paddingLeft="5dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
-        android:text="Recipe 3"
+        android:text="Hummus"
         android:textAllCaps="false"
         android:textColor="#006aff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.801"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        app:layout_constraintVertical_bias="0.28" />
 
-    <Button
-        android:id="@+id/button20"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 2"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H"
+        android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.648"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
-
-    <CheckBox
-        android:id="@+id/checkBox18"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
-
-    <CheckBox
-        android:id="@+id/checkBox19"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
-
-    <Button
-        android:id="@+id/button22"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 1"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintVertical_bias="0.235" />
 
     <CheckBox
         android:id="@+id/checkBox20"
@@ -416,24 +186,10 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.603"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="C"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <TextView
         android:id="@+id/textView2"
@@ -449,7 +205,7 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <Button
-        android:id="@+id/rec_key_bt"
+        android:id="@+id/main_kw_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -467,61 +223,24 @@
         app:layout_constraintVertical_bias="0.163" />
 
     <Button
-        android:id="@+id/recipe_a1_bt"
+        android:id="@+id/main_agp_bt"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
+        android:layout_width="142dp"
+        android:layout_height="29dp"
         android:backgroundTint="#ffffff"
+        android:gravity="start"
         android:paddingLeft="5dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
-        android:text="Recipe 1"
+        android:text="Au Gratin Potatoes"
         android:textAllCaps="false"
         android:textColor="#006aff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
-
-    <Button
-        android:id="@+id/recipe_a2_bt"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 2"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325" />
-
-    <Button
-        android:id="@+id/recipe_a3_bt"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 3"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.281" />
 
     <TextView
         android:id="@+id/textView4"
@@ -549,110 +268,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.282" />
 
-    <CheckBox
-        android:id="@+id/recipe_a2_cb"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325" />
-
-    <CheckBox
-        android:id="@+id/recipe_a3_cb"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
-
     <Button
-        android:id="@+id/recipe_b3_bt"
+        android:id="@+id/main_becb_bt"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
+        android:layout_width="168dp"
         android:layout_height="30dp"
         android:backgroundTint="#ffffff"
+        android:gravity="start"
         android:paddingLeft="5dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
-        android:text="Recipe 3"
+        android:text="Bacon Egg Cheese Bagel"
         android:textAllCaps="false"
         android:textColor="#006aff"
+        android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.186"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
-
-    <Button
-        android:id="@+id/recipe_b2_bt"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 2"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
-
-    <CheckBox
-        android:id="@+id/recipe_b2_cb"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
-
-    <CheckBox
-        android:id="@+id/recipe_b3_cb"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
-
-    <Button
-        android:id="@+id/recipe_b1_bt"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#ffffff"
-        android:paddingLeft="5dp"
-        android:paddingTop="0dp"
-        android:paddingBottom="0dp"
-        android:text="Recipe 1"
-        android:textAllCaps="false"
-        android:textColor="#006aff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
+        app:layout_constraintVertical_bias="0.467" />
 
     <CheckBox
         android:id="@+id/recipe_b1_cb"

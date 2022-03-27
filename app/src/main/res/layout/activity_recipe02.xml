@@ -11,7 +11,6 @@
         android:id="@+id/nutrition_detail"
         android:layout_width="409dp"
         android:layout_height="45dp"
-        android:layout_marginTop="8dp"
         android:text="Per Serving: 257 Calories; 5.6g Protein; 7.2g Fat; Carbohydrates 43.7g."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +22,6 @@
         android:id="@+id/nutrition_main"
         android:layout_width="408dp"
         android:layout_height="27dp"
-        android:layout_marginTop="4dp"
         android:text="Nutritional Value:"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -36,9 +34,8 @@
         android:id="@+id/direction_detail"
         android:layout_width="406dp"
         android:layout_height="125dp"
-        android:layout_marginTop="4dp"
-        android:text="1: Bring a pot of salted water to a boil. Add potoates and cook them until it's tender and firm the drain the pot. 2: In a small saucepan heat the butter and milk over low heat. Using a potato masher, slowly blend milk mixture into potoates then season with salt and pepper."
-        android:textSize="17sp"
+        android:text="1: Bring a pot of salted water to a boil. Add potatoes and cook them until it's tender and firm the drain the pot. \n2: In a small saucepan heat the butter and milk over low heat. Using a potato masher, slowly blend milk mixture into potoates then season with salt and pepper."
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
@@ -253,15 +250,13 @@
 
     <Button
         android:id="@+id/return_button"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:text="Return"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nutrition_detail"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/decrement"

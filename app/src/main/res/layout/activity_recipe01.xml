@@ -11,7 +11,6 @@
         android:id="@+id/nutrition_detail"
         android:layout_width="409dp"
         android:layout_height="45dp"
-        android:layout_marginTop="8dp"
         android:text="Per Serving: 54 Calories; 1.6g Protein; 2.5g Fat; Carbohydrates 6.8g."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +22,6 @@
         android:id="@+id/nutrition_main"
         android:layout_width="408dp"
         android:layout_height="27dp"
-        android:layout_marginTop="4dp"
         android:text="Nutritional Value:"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -34,11 +32,10 @@
 
     <TextView
         android:id="@+id/direction_detail"
-        android:layout_width="401dp"
+        android:layout_width="405dp"
         android:layout_height="96dp"
-        android:layout_marginTop="4dp"
-        android:text="1: Chop the garlic and then put everything in the blender except 1 garbanzo bean, black pepper and olive oil and mix until its well mixed. 2: Put it on a plate and sprinkle all the black pepper, pour all the olive oil onto it and garnish it with the last garbanzo bean."
-        android:textSize="16sp"
+        android:text="1: Chop the garlic and then put everything in the blender except 1 garbanzo bean, black pepper and olive oil and mix until its well mixed. \n2: Put it on a plate and sprinkle all the black pepper, pour all the olive oil onto it and garnish it with the last garbanzo bean."
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
@@ -294,15 +291,13 @@
 
     <Button
         android:id="@+id/return_button"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:text="Return"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nutrition_detail"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/decrement"
