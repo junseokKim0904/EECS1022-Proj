@@ -34,11 +34,11 @@
 
     <TextView
         android:id="@+id/direction_detail"
-        android:layout_width="401dp"
-        android:layout_height="96dp"
+        android:layout_width="406dp"
+        android:layout_height="125dp"
         android:layout_marginTop="4dp"
         android:text="1: Bring a pot of salted water to a boil. Add potoates and cook them until it's tender and firm the drain the pot. 2: In a small saucepan heat the butter and milk over low heat. Using a potato masher, slowly blend milk mixture into potoates then season with salt and pepper."
-        android:textSize="16sp"
+        android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"

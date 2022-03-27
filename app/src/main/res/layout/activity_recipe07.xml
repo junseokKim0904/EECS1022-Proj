@@ -9,65 +9,58 @@
 
     <TextView
         android:id="@+id/nutrition_detail"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:text="nutrition_detail"
+        android:layout_width="409dp"
+        android:layout_height="45dp"
+        android:text="Per Serving: 295calories; protein 13g; carbohydrates 3g; fat 25g; Fiber 1g; sodium 531mg."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nutrition_main" />
 
     <TextView
         android:id="@+id/nutrition_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="nutrition_main"
+        android:layout_width="408dp"
+        android:layout_height="27dp"
+        android:text="Nutritional Value:"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/direction_detail" />
 
     <TextView
         android:id="@+id/direction_detail"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:text="direction_detail"
-        android:textSize="16sp"
+        android:layout_width="406dp"
+        android:layout_height="105dp"
+        android:text="1: Add the eggs to a pot and boil them once it reaches boiling,  the heat off and leave them for 12 minutes. 2: Peel the eggs then chop them into 1/2-inch pieces. 3: Add the chopped egg to a bowl along with the mayonnaise, Dijon, relish, salt, and pepper. Stir to combine, mashing some of the egg yolk into the dressing as you stir."
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/direction_main" />
 
     <TextView
         android:id="@+id/direction_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="direction_main"
+        android:layout_width="402dp"
+        android:layout_height="26dp"
+        android:text="Steps:"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb07" />
-
-    <CheckBox
-        android:id="@+id/ingred_cb07"
-        android:layout_width="0dp"
-        android:layout_height="25dp"
-        android:text="ingred_cb07"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb06" />
+        tools:layout_editor_absoluteY="488dp" />
 
     <CheckBox
         android:id="@+id/ingred_cb05"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb05"
+        android:text="Dijon mustard"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv05"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb04" />
 
@@ -75,9 +68,10 @@
         android:id="@+id/ingred_cb06"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb06"
+        android:text="dill relish"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv06"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb05" />
 
@@ -85,9 +79,10 @@
         android:id="@+id/ingred_cb02"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb02"
+        android:text="Mayonnaise"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv02"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb01" />
 
@@ -95,9 +90,9 @@
         android:id="@+id/ingred_cb03"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb03"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:text="Salt"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv03"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb02" />
 
@@ -105,18 +100,70 @@
         android:id="@+id/ingred_cb04"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb04"
+        android:text="Pepper"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv04"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb03" />
 
     <TextView
-        android:id="@+id/ingredients_main"
+        android:id="@+id/ingred_tv02"
         android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="ingredients_main"
+        android:layout_height="25dp"
+        android:text="3 Tablespoons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb02"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv01" />
+
+    <TextView
+        android:id="@+id/ingred_tv03"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1/8 Teapoons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb03"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv02" />
+
+    <TextView
+        android:id="@+id/ingred_tv04"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1/8 Teapoons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb04"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv03" />
+
+    <TextView
+        android:id="@+id/ingred_tv05"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1 Teaspoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb05"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv04" />
+
+    <TextView
+        android:id="@+id/ingred_tv06"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1 Tablespoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb06"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv05" />
+
+    <TextView
+        android:id="@+id/ingredients_main"
+        android:layout_width="410dp"
+        android:layout_height="28dp"
+        android:text="Ingredients:"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,12 +171,13 @@
 
     <TextView
         android:id="@+id/servings_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="servings_main"
+        android:layout_width="199dp"
+        android:layout_height="30dp"
+        android:text="Servings:"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cookingtime_main" />
 
@@ -137,10 +185,11 @@
         android:id="@+id/cookingtime_main"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="cookingtime_main"
+        android:text="Cooktime:"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
-        app:layout_constraintHorizontal_bias="1.0"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/cookingtime_detail"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/preptime_main" />
 
@@ -148,7 +197,7 @@
         android:id="@+id/cookingtime_detail"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="cookingtime_detail"
+        android:text="15 minutes"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -160,27 +209,29 @@
         android:layout_width="213dp"
         android:layout_height="92dp"
         android:gravity="center"
-        android:text="title"
-        android:textSize="22sp"
+        android:text="Egg Salad"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/description_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="description_main"
-        android:textSize="18sp"
+        android:layout_width="404dp"
+        android:layout_height="30dp"
+        android:text="What is Egg Salad?"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_title" />
 
     <TextView
         android:id="@+id/description_detail"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:text="description_detail"
-        android:textSize="16sp"
+        android:layout_width="407dp"
+        android:layout_height="61dp"
+        android:text="Egg salad is a dish made primarily of chopped hard-boiled or scrambled eggs. It is made mixed with seasonings in the form of herbs, spices and other ingredients, bound with mayonnaise"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description_main" />
@@ -189,8 +240,9 @@
         android:id="@+id/preptime_main"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="preptime_main"
+        android:text="Preptime:"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -200,7 +252,7 @@
         android:id="@+id/preptime_detail"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="preptime_detail"
+        android:text="10 minutes"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -211,8 +263,9 @@
         android:id="@+id/ingred_cb01"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb01"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Eggs"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv01"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
 
@@ -220,10 +273,13 @@
         android:id="@+id/return_button"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
         android:text="Return"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nutrition_detail" />
+        app:layout_constraintTop_toBottomOf="@+id/nutrition_detail"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/decrement"
@@ -242,7 +298,7 @@
         android:layout_width="0dp"
         android:layout_height="35dp"
         android:gravity="center"
-        android:text="0 Bowl"
+        android:text="2 Bowl"
         app:layout_constraintEnd_toStartOf="@+id/increment"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/decrement"
@@ -258,5 +314,31 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/servingCount"
         app:layout_constraintTop_toTopOf="@+id/servingCount" />
+
+    <TextView
+        android:id="@+id/ingred_tv01"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="4 Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb01"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
+
+    <CheckBox
+        android:id="@+id/receipe01_rec_cb01"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="@+id/main_title"
+        app:layout_constraintTop_toTopOf="@+id/main_title" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="158dp"
+        android:layout_height="114dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/main_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/egg_salad" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

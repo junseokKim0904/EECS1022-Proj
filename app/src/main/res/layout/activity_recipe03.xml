@@ -174,12 +174,11 @@
         android:id="@+id/ingred_tv07"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:layout_marginTop="32dp"
         android:text="1/4 cup of Flour"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/ingred_cb06"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_tv05" />
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv06" />
 
     <TextView
         android:id="@+id/ingredients_main"
