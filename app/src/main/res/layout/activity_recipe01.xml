@@ -289,12 +289,12 @@
         android:id="@+id/ingred_cb01"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="Cloves Garlic"
+        android:onClick="onCheckboxClicked"
+        android:text="Clove Garlic"
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv01"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingredients_main"
-        android:onClick="onCheckboxClicked" />
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
 
     <Button
         android:id="@+id/return_button"
