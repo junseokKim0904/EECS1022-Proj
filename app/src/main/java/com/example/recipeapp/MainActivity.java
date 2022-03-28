@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -114,6 +116,37 @@ public class MainActivity extends AppCompatActivity {
 //                openRecipe08Activity(); // by calling the method it goes to the activity
 //            }
 //        });
+
+        CheckBox checkBox20 = (CheckBox) findViewById(R.id.checkBox20);
+        boolean checked = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe1CheckBox", false);
+        checkBox20.setChecked(checked);
+
+        CheckBox checkBox29 = (CheckBox) findViewById(R.id.checkBox29);
+        boolean checked2 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe2CheckBox", false);
+        checkBox29.setChecked(checked2);
+
+        CheckBox checkBox27 = (CheckBox) findViewById(R.id.checkBox27);
+        boolean checked3 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe3CheckBox", false);
+        checkBox27.setChecked(checked3);
+
+        CheckBox recipe_a1_cb = (CheckBox) findViewById(R.id.recipe_a1_cb);
+        boolean checked6 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe6CheckBox", false);
+        recipe_a1_cb.setChecked(checked6);
+
+        CheckBox checkBox23 = (CheckBox) findViewById(R.id.checkBox23);
+        boolean checked7 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe7CheckBox", false);
+        checkBox23.setChecked(checked7);
+
+        CheckBox recipe_b1_cb = (CheckBox) findViewById(R.id.recipe_b1_cb);
+        boolean checked8 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe8CheckBox", false);
+        recipe_b1_cb.setChecked(checked8);
+
     }
 
     public void openRecipe00Activity(){ // it goes to keyword_list once it runs
@@ -169,5 +202,39 @@ public class MainActivity extends AppCompatActivity {
     public void openRecipe10Activity(){ // direct to recipe10_Activity once it runs
         Intent intent = new Intent(this, recipe10_Activity.class);
         startActivity(intent);
+    }
+
+    public void onCheckboxClicked(View view) {
+        switch(view.getId()) {
+            case R.id.checkBox20:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe1CheckBox", ((CheckBox) findViewById(R.id.checkBox20)).isChecked()).commit();
+                break;
+
+            case R.id.checkBox29:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe2CheckBox", ((CheckBox) findViewById(R.id.checkBox29)).isChecked()).commit();
+                break;
+
+            case R.id.checkBox27:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe3CheckBox", ((CheckBox) findViewById(R.id.checkBox27)).isChecked()).commit();
+                break;
+
+            case R.id.recipe_a1_cb:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe6CheckBox", ((CheckBox) findViewById(R.id.recipe_a1_cb)).isChecked()).commit();
+                break;
+
+            case R.id.checkBox23:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe7CheckBox", ((CheckBox) findViewById(R.id.checkBox23)).isChecked()).commit();
+                break;
+
+            case R.id.recipe_b1_cb:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe8CheckBox", ((CheckBox) findViewById(R.id.recipe_b1_cb)).isChecked()).commit();
+                break;
+        }
     }
 }

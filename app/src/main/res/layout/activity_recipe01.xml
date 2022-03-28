@@ -61,7 +61,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb06" />
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb06"
+        android:onClick="onCheckboxClicked" />
 
     <CheckBox
         android:id="@+id/ingred_cb05"
@@ -72,7 +73,8 @@
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv05"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb04" />
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb04"
+        android:onClick="onCheckboxClicked" />
 
     <CheckBox
         android:id="@+id/ingred_cb06"
@@ -83,7 +85,8 @@
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv06"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb05" />
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb05"
+        android:onClick="onCheckboxClicked" />
 
     <CheckBox
         android:id="@+id/ingred_cb02"
@@ -94,7 +97,8 @@
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv02"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb01" />
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb01"
+        android:onClick="onCheckboxClicked" />
 
     <CheckBox
         android:id="@+id/ingred_cb03"
@@ -104,7 +108,8 @@
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv03"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb02" />
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb02"
+        android:onClick="onCheckboxClicked" />
 
     <CheckBox
         android:id="@+id/ingred_cb04"
@@ -115,7 +120,8 @@
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv04"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingred_cb03" />
+        app:layout_constraintTop_toBottomOf="@+id/ingred_cb03"
+        android:onClick="onCheckboxClicked" />
 
     <TextView
         android:id="@+id/ingred_tv02"
@@ -287,7 +293,8 @@
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv01"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_main"
+        android:onClick="onCheckboxClicked" />
 
     <Button
         android:id="@+id/return_button"
@@ -348,7 +355,8 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         app:layout_constraintStart_toStartOf="@+id/main_title"
-        app:layout_constraintTop_toTopOf="@+id/main_title" />
+        app:layout_constraintTop_toTopOf="@+id/main_title"
+        android:onClick="onCheckboxClicked" />
 
     <ImageView
         android:id="@+id/imageView2"
