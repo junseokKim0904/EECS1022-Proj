@@ -90,7 +90,7 @@ public class recipe01_Activity extends AppCompatActivity {
 
         CheckBox receipe01_rec_cb01 = (CheckBox) findViewById(R.id.receipe01_rec_cb01);
         boolean checked8 = PreferenceManager.getDefaultSharedPreferences(this)
-                .getBoolean("recipeCheckBox", false);
+                .getBoolean("recipe1CheckBox", false);
         receipe01_rec_cb01.setChecked(checked8);
     }
 
@@ -138,7 +138,7 @@ public class recipe01_Activity extends AppCompatActivity {
 
             case R.id.receipe01_rec_cb01:
                 PreferenceManager.getDefaultSharedPreferences(this).edit()
-                        .putBoolean("recipeCheckBox", ((CheckBox) findViewById(R.id.receipe01_rec_cb01)).isChecked()).commit();
+                        .putBoolean("recipe1CheckBox", ((CheckBox) findViewById(R.id.receipe01_rec_cb01)).isChecked()).commit();
                 break;
         }
     }
