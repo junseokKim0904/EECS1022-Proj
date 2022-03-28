@@ -5,47 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="1dp"
-    tools:context=".recipe10_Activity">
+    tools:context=".recipe09_Activity">
 
     <TextView
         android:id="@+id/nutrition_detail"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:text="nutrition_detail"
+        android:layout_width="409dp"
+        android:layout_height="45dp"
+        android:text="Per Serving: 54 Calories; 1.6g Protein; 2.5g Fat; Carbohydrates 6.8g."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nutrition_main" />
 
     <TextView
         android:id="@+id/nutrition_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="nutrition_main"
+        android:layout_width="408dp"
+        android:layout_height="27dp"
+        android:text="Nutritional Value:"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/direction_detail" />
 
     <TextView
         android:id="@+id/direction_detail"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:text="direction_detail"
-        android:textSize="16sp"
+        android:layout_width="409dp"
+        android:layout_height="146dp"
+        android:text="1: Preheat oven to 450 degrees F (230 degrees C).\n2: Place the broccoli in a saucepan with enough water to cover. Bring to a boil, and cook 5 minutes, or until tender. Drain.\n3: Place the cooked broccoli in a 9 inch pie plate. Top with the chicken. In a bowl, mix the soup and milk, and pour over the chicken. Sprinkle with Cheddar cheese. Mix the melted butter with the bread crumbs, and sprinkle over the cheese.\n4: Bake in the preheated oven for 15 minutes, or until bubbly and lightly brown."
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/direction_main" />
 
     <TextView
         android:id="@+id/direction_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="direction_main"
+        android:layout_width="402dp"
+        android:layout_height="26dp"
+        android:text="Steps:"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +57,7 @@
         android:id="@+id/ingred_cb07"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb07"
+        android:text="Dried bread crumbs"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,9 +67,10 @@
         android:id="@+id/ingred_cb05"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb05"
+        android:text="Cheddar cheese"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv05"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb04" />
 
@@ -75,9 +78,10 @@
         android:id="@+id/ingred_cb06"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb06"
+        android:text="Butter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv06"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb05" />
 
@@ -85,9 +89,10 @@
         android:id="@+id/ingred_cb02"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb02"
+        android:text="Chicken"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv02"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb01" />
 
@@ -95,9 +100,9 @@
         android:id="@+id/ingred_cb03"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb03"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:text="Broccoli Soup"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv03"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb02" />
 
@@ -105,18 +110,81 @@
         android:id="@+id/ingred_cb04"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb04"
+        android:text="Milk"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv04"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb03" />
 
     <TextView
-        android:id="@+id/ingredients_main"
+        android:id="@+id/ingred_tv02"
         android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="ingredients_main"
+        android:layout_height="25dp"
+        android:text="1 ½ cups cubed and cooked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb02"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv01" />
+
+    <TextView
+        android:id="@+id/ingred_tv03"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1 can condensed cream"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb03"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv02" />
+
+    <TextView
+        android:id="@+id/ingred_tv04"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1/4 cup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb04"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv03" />
+
+    <TextView
+        android:id="@+id/ingred_tv05"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="½ cup shredded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb05"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv04" />
+
+    <TextView
+        android:id="@+id/ingred_tv06"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1 tablespoon, melted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb06"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv05" />
+
+    <TextView
+        android:id="@+id/ingred_tv07"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="2 tablespoons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb06"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv06" />
+
+    <TextView
+        android:id="@+id/ingredients_main"
+        android:layout_width="410dp"
+        android:layout_height="28dp"
+        android:text="Ingredients:"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,23 +192,25 @@
 
     <TextView
         android:id="@+id/servings_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="servings_main"
+        android:layout_width="199dp"
+        android:layout_height="30dp"
+        android:text="Servings:"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cookingtime_main" />
 
     <TextView
         android:id="@+id/cookingtime_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="cookingtime_main"
+        android:layout_width="202dp"
+        android:layout_height="31dp"
+        android:text="Cooktime:"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/preptime_main" />
 
@@ -148,7 +218,7 @@
         android:id="@+id/cookingtime_detail"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="cookingtime_detail"
+        android:text="20 minutes"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -160,27 +230,29 @@
         android:layout_width="213dp"
         android:layout_height="92dp"
         android:gravity="center"
-        android:text="title"
-        android:textSize="22sp"
+        android:text="Broccoli Chicken Divan"
+        android:textSize="19sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/description_main"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="description_main"
-        android:textSize="18sp"
+        android:layout_width="404dp"
+        android:layout_height="30dp"
+        android:text="What is (Broccoli) Chicken Divan?"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_title" />
 
     <TextView
         android:id="@+id/description_detail"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:text="description_detail"
-        android:textSize="16sp"
+        android:layout_width="411dp"
+        android:layout_height="71dp"
+        android:text="Chicken Divan is a chicken casserole usually served with broccoli and Mornay sauce. It was named after the place of its invention, the Divan Parisien Restaurant in the New York City Chatham Hotel."
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description_main" />
@@ -189,8 +261,9 @@
         android:id="@+id/preptime_main"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="preptime_main"
+        android:text="Preptime:"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/preptime_detail"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -200,7 +273,7 @@
         android:id="@+id/preptime_detail"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="preptime_detail"
+        android:text="20 minutes"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -211,8 +284,9 @@
         android:id="@+id/ingred_cb01"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="ingred_cb01"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Broccoli"
+        app:layout_constraintEnd_toStartOf="@+id/ingred_tv01"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
 
@@ -220,6 +294,8 @@
         android:id="@+id/return_button"
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
         android:text="Return"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -241,7 +317,7 @@
         android:layout_width="0dp"
         android:layout_height="35dp"
         android:gravity="center"
-        android:text="0 Bowl"
+        android:text="6 Bowl"
         app:layout_constraintEnd_toStartOf="@+id/increment"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/decrement"
@@ -257,5 +333,34 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/servingCount"
         app:layout_constraintTop_toTopOf="@+id/servingCount" />
+
+    <TextView
+        android:id="@+id/ingred_tv01"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="1 pound chopped"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb01"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_main" />
+
+    <CheckBox
+        android:id="@+id/receipe01_rec_cb01"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="@+id/main_title"
+        app:layout_constraintTop_toTopOf="@+id/main_title" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="158dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@+id/description_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toEndOf="@+id/main_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/broccoli_chicken_divan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

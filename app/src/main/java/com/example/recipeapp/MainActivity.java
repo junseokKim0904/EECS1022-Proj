@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button main_agp_bt; // to active the recipe06 button
     private Button main_es_bt; // to active the recipe07 button
     private Button main_becb_bt; // to active the recipe08 button
-    private Button main_09_bt; // to active the recipe09 button
+    private Button main_bcd_bt; // to active the recipe09 button
     private Button main_10_bt; // to active the recipe10 button
 
     @Override
@@ -101,19 +101,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        main_09_bt = (Button) findViewById(R.id.main_09_bt);
-//        main_09_bt.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) { // once button clicked, it goes to the activity
-//                openRecipe08Activity(); // by calling the method it goes to the activity
-//            }
-//        });
+        main_bcd_bt = (Button) findViewById(R.id.main_bcd_bt);
+        main_bcd_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { // once button clicked, it goes to the activity
+                openRecipe09Activity(); // by calling the method it goes to the activity
+            }
+        });
 //
 //        main_10_bt = (Button) findViewById(R.id.main_10_bt);
 //        main_10_bt.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) { // once button clicked, it goes to the activity
-//                openRecipe08Activity(); // by calling the method it goes to the activity
+//                openRecipe10Activity(); // by calling the method it goes to the activity
 //            }
 //        });
 
@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openRecipe09Activity(){ // direct to recipe09_Activity once it runs
+    public void openRecipe09Activity(){ // direct to Broccoli Chicken Divan (recipe09_Activity)
         Intent intent = new Intent(this, recipe09_Activity.class);
         startActivity(intent);
     }
