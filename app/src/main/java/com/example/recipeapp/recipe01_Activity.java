@@ -75,7 +75,7 @@ public class recipe01_Activity extends AppCompatActivity {
 
         CheckBox ingred_cb05 = (CheckBox) findViewById(R.id.ingred_cb05);
         boolean checked5 = PreferenceManager.getDefaultSharedPreferences(this)
-                .getBoolean("saltCheckBox", false);
+                .getBoolean("salt1CheckBox", false);
         ingred_cb05.setChecked(checked5);
 
         CheckBox ingred_cb06 = (CheckBox) findViewById(R.id.ingred_cb06);
@@ -123,7 +123,7 @@ public class recipe01_Activity extends AppCompatActivity {
 
             case R.id.ingred_cb05:
                 PreferenceManager.getDefaultSharedPreferences(this).edit()
-                        .putBoolean("saltCheckBox", ((CheckBox) findViewById(R.id.ingred_cb05)).isChecked()).commit();
+                        .putBoolean("salt1CheckBox", ((CheckBox) findViewById(R.id.ingred_cb05)).isChecked()).commit();
                 break;
 
             case R.id.ingred_cb06:

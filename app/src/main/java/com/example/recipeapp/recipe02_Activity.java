@@ -28,7 +28,7 @@ public class recipe02_Activity extends AppCompatActivity {
 
         CheckBox ingred_cb01 = (CheckBox) findViewById(R.id.ingred_cb01);
         boolean checked = PreferenceManager.getDefaultSharedPreferences(this)
-                .getBoolean("potatoeCheckBox", false);
+                .getBoolean("potatoesCheckBox", false);
         ingred_cb01.setChecked(checked);
 
         CheckBox ingred_cb02 = (CheckBox) findViewById(R.id.ingred_cb02);
@@ -66,7 +66,7 @@ public class recipe02_Activity extends AppCompatActivity {
         switch(view.getId()) {
             case R.id.ingred_cb01:
                 PreferenceManager.getDefaultSharedPreferences(this).edit()
-                        .putBoolean("potatoeCheckBox", ((CheckBox) findViewById(R.id.ingred_cb01)).isChecked()).commit();
+                        .putBoolean("potatoesCheckBox", ((CheckBox) findViewById(R.id.ingred_cb01)).isChecked()).commit();
                 break;
 
             case R.id.ingred_cb02:

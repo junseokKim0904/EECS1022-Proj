@@ -43,7 +43,7 @@ public class recipe03_Activity extends AppCompatActivity {
 
         CheckBox ingred_cb04 = (CheckBox) findViewById(R.id.ingred_cb04);
         boolean checked4 = PreferenceManager.getDefaultSharedPreferences(this)
-                .getBoolean("tomatoesCheckBox", false);
+                .getBoolean("tomatoeCheckBox", false);
         ingred_cb04.setChecked(checked4);
 
         CheckBox ingred_cb05 = (CheckBox) findViewById(R.id.ingred_cb05);
@@ -91,7 +91,7 @@ public class recipe03_Activity extends AppCompatActivity {
 
             case R.id.ingred_cb04:
                 PreferenceManager.getDefaultSharedPreferences(this).edit()
-                        .putBoolean("tomatoesCheckBox", ((CheckBox) findViewById(R.id.ingred_cb04)).isChecked()).commit();
+                        .putBoolean("tomatoeCheckBox", ((CheckBox) findViewById(R.id.ingred_cb04)).isChecked()).commit();
                 break;
 
             case R.id.ingred_cb05:

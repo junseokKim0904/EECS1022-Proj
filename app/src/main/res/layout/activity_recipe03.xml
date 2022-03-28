@@ -34,7 +34,7 @@
         android:id="@+id/direction_detail"
         android:layout_width="401dp"
         android:layout_height="96dp"
-        android:text="1: Salute onion and then put all the ingredients on the whisk to mix. \n2: Brush big skillet with butter and pour the mixture. \n3: Put the mixture in the oven at 350 degrees until the egg is done and not wet anymore."
+        android:text="1: Salute onion and then put all the ingredients on the whisk to mix. \n2: Brush big skillet with butter and pour the mixture. \n3: Put the mixture in the oven at 350 degrees until the egg is done and no longer wet anymore."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"

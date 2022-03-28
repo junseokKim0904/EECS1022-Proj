@@ -213,7 +213,7 @@
         android:id="@+id/description_detail"
         android:layout_width="407dp"
         android:layout_height="61dp"
-        android:text="Mashed potatoes are quite literally boiled mashed potatoes with a bit of added ingredients to make it go from tasting great to tasing amazing."
+        android:text="Mashed potatoes is quite literally boiled mashed potatoes with a bit of added ingredients to make it go from tasting great to tasing amazing."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
