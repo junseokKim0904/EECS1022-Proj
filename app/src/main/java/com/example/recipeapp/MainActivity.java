@@ -147,6 +147,11 @@ public class MainActivity extends AppCompatActivity {
                 .getBoolean("recipe8CheckBox", false);
         recipe_b1_cb.setChecked(checked8);
 
+        CheckBox checkBox = (CheckBox) findViewById(R.id.checkBox);
+        boolean checked9 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe9CheckBox", false);
+        checkBox.setChecked(checked9);
+
     }
 
     public void openRecipe00Activity(){ // it goes to keyword_list once it runs
@@ -234,6 +239,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.recipe_b1_cb:
                 PreferenceManager.getDefaultSharedPreferences(this).edit()
                         .putBoolean("recipe8CheckBox", ((CheckBox) findViewById(R.id.recipe_b1_cb)).isChecked()).commit();
+                break;
+
+            case R.id.checkBox:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe9CheckBox", ((CheckBox) findViewById(R.id.checkBox)).isChecked()).commit();
                 break;
         }
     }
