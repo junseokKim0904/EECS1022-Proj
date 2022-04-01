@@ -132,6 +132,16 @@ public class MainActivity extends AppCompatActivity {
                 .getBoolean("recipe3CheckBox", false);
         checkBox27.setChecked(checked3);
 
+        CheckBox checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
+        boolean checked4 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe4CheckBox", false);
+        checkBox2.setChecked(checked4);
+
+        CheckBox checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
+        boolean checked5 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe5CheckBox", false);
+        checkBox3.setChecked(checked5);
+
         CheckBox recipe_a1_cb = (CheckBox) findViewById(R.id.recipe_a1_cb);
         boolean checked6 = PreferenceManager.getDefaultSharedPreferences(this)
                 .getBoolean("recipe6CheckBox", false);
@@ -152,6 +162,10 @@ public class MainActivity extends AppCompatActivity {
                 .getBoolean("recipe9CheckBox", false);
         checkBox.setChecked(checked9);
 
+        CheckBox checkBox5 = (CheckBox) findViewById(R.id.checkBox5);
+        boolean checked10 = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean("recipe10CheckBox", false);
+        checkBox5.setChecked(checked10);
     }
 
     public void openRecipe00Activity(){ // it goes to keyword_list once it runs
@@ -226,6 +240,16 @@ public class MainActivity extends AppCompatActivity {
                         .putBoolean("recipe3CheckBox", ((CheckBox) findViewById(R.id.checkBox27)).isChecked()).commit();
                 break;
 
+            case R.id.checkBox2:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe4CheckBox", ((CheckBox) findViewById(R.id.checkBox2)).isChecked()).commit();
+                break;
+
+            case R.id.checkBox3:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe5CheckBox", ((CheckBox) findViewById(R.id.checkBox3)).isChecked()).commit();
+                break;
+
             case R.id.recipe_a1_cb:
                 PreferenceManager.getDefaultSharedPreferences(this).edit()
                         .putBoolean("recipe6CheckBox", ((CheckBox) findViewById(R.id.recipe_a1_cb)).isChecked()).commit();
@@ -244,6 +268,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.checkBox:
                 PreferenceManager.getDefaultSharedPreferences(this).edit()
                         .putBoolean("recipe9CheckBox", ((CheckBox) findViewById(R.id.checkBox)).isChecked()).commit();
+                break;
+
+            case R.id.checkBox5:
+                PreferenceManager.getDefaultSharedPreferences(this).edit()
+                        .putBoolean("recipe10CheckBox", ((CheckBox) findViewById(R.id.checkBox5)).isChecked()).commit();
                 break;
         }
     }
