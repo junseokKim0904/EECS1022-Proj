@@ -8,15 +8,15 @@
     tools:context=".recipe10_Activity">
 
     <TextView
-        android:id="@+id/nutrition_detail"
-        android:layout_width="409dp"
-        android:layout_height="45dp"
-        android:text="Per Serving: 295calories; protein 13g; carbohydrates 3g; fat 25g; Fiber 1g; sodium 531mg."
-        android:textSize="16sp"
+        android:id="@+id/direction_detail"
+        android:layout_width="410dp"
+        android:layout_height="150dp"
+        android:text="1: Heat the oven to 200C.\n2: Toss the onion, tomatoes, 2 tbsp curry paste, the chickpeas and 200ml water together in a deep baking tray. Roast for 15 mins.\n3: Season, and brush the remaining curry paste over the salmon fillets.\n4: Place the salmon into the veg in the tin and roast for another 8-10 mins.\n5: Mix the yogurt into the vegetables in the tray, and serve with warm naan."
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nutrition_main" />
+        app:layout_constraintTop_toBottomOf="@+id/direction_main" />
 
     <TextView
         android:id="@+id/nutrition_main"
@@ -31,15 +31,15 @@
         app:layout_constraintTop_toBottomOf="@+id/direction_detail" />
 
     <TextView
-        android:id="@+id/direction_detail"
-        android:layout_width="412dp"
-        android:layout_height="121dp"
-        android:text="1: Preheat oven to 450 degrees F (230 degrees C). \n2: Place the broccoli in a saucepan with enough water to cover. Bring to a boil, and cook 5 minutes, or until tender. Drain. \n3:"
-        android:textSize="14sp"
+        android:id="@+id/nutrition_detail"
+        android:layout_width="409dp"
+        android:layout_height="45dp"
+        android:text="Per serving: 796 calories; protein 54; carbohydrates 62; fat 34g; fiber 13g; sodium 1.7g"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/direction_main" />
+        app:layout_constraintTop_toBottomOf="@+id/nutrition_main" />
 
     <TextView
         android:id="@+id/direction_main"
@@ -51,13 +51,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv07" />
+
+    <CheckBox
+        android:id="@+id/ingred_cb07"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="Fat-free Yogurt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingred_cb06" />
 
     <CheckBox
         android:id="@+id/ingred_cb05"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="Dijon mustard"
+        android:text="Skinless Salmon fillets"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv05"
         app:layout_constraintHorizontal_bias="0.5"
@@ -68,7 +78,7 @@
         android:id="@+id/ingred_cb06"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="dill relish"
+        android:text="large Naan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv06"
         app:layout_constraintHorizontal_bias="0.5"
@@ -79,7 +89,7 @@
         android:id="@+id/ingred_cb02"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="Mayonnaise"
+        android:text="Cherry tomatoes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv02"
         app:layout_constraintHorizontal_bias="0.5"
@@ -90,7 +100,7 @@
         android:id="@+id/ingred_cb03"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="Salt"
+        android:text="Mild curry paste"
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv03"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,7 +110,7 @@
         android:id="@+id/ingred_cb04"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="Pepper"
+        android:text="Chickpeas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv04"
         app:layout_constraintHorizontal_bias="0.5"
@@ -111,7 +121,7 @@
         android:id="@+id/ingred_tv02"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="3 Tablespoons"
+        android:text="200g"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ingred_cb02"
@@ -121,7 +131,7 @@
         android:id="@+id/ingred_tv03"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="1/8 Teapoons"
+        android:text="3 tablespoon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ingred_cb03"
@@ -131,7 +141,7 @@
         android:id="@+id/ingred_tv04"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="1/8 Teapoons"
+        android:text="400g"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ingred_cb04"
@@ -141,7 +151,7 @@
         android:id="@+id/ingred_tv05"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="1 Teaspoon"
+        android:text="2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ingred_cb05"
@@ -151,11 +161,21 @@
         android:id="@+id/ingred_tv06"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="1 Tablespoon"
+        android:text="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ingred_cb06"
         app:layout_constraintTop_toBottomOf="@+id/ingred_tv05" />
+
+    <TextView
+        android:id="@+id/ingred_tv07"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:text="2 Tablespoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ingred_cb06"
+        app:layout_constraintTop_toBottomOf="@+id/ingred_tv06" />
 
     <TextView
         android:id="@+id/ingredients_main"
@@ -197,7 +217,7 @@
         android:id="@+id/cookingtime_detail"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="15 minutes"
+        android:text="25 minutes"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -209,7 +229,7 @@
         android:layout_width="213dp"
         android:layout_height="92dp"
         android:gravity="center"
-        android:text="Egg Salad"
+        android:text="Spiced salmon and \ntomato traybake"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -219,7 +239,7 @@
         android:id="@+id/description_main"
         android:layout_width="404dp"
         android:layout_height="30dp"
-        android:text="What is Egg Salad?"
+        android:text="What is Spiced salmon and tomato traybake?"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -230,7 +250,7 @@
         android:id="@+id/description_detail"
         android:layout_width="407dp"
         android:layout_height="61dp"
-        android:text="Egg salad is a dish made primarily of chopped hard-boiled or scrambled eggs. It is made mixed with seasonings in the form of herbs, spices and other ingredients, bound with mayonnaise"
+        android:text="Spiced salmon and tomato traybake is a dish made in a deep baking tray, made of salmon and several vegetables."
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -252,7 +272,7 @@
         android:id="@+id/preptime_detail"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:text="10 minutes"
+        android:text="5 minutes"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -263,7 +283,7 @@
         android:id="@+id/ingred_cb01"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="Eggs"
+        android:text="Red Onion"
         app:layout_constraintEnd_toStartOf="@+id/ingred_tv01"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -317,7 +337,7 @@
         android:id="@+id/ingred_tv01"
         android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="4 Large"
+        android:text="1 Sliced"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ingred_cb01"
@@ -332,11 +352,11 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="158dp"
-        android:layout_height="114dp"
+        android:layout_width="157dp"
+        android:layout_height="96dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/main_title"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/egg_salad" />
+        app:srcCompat="@drawable/sstt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,6 +8,147 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/main_sstt_bt"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#ffffff"
+        android:gravity="start"
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="Spiced salmon and\ntomato traybake"
+        android:textAllCaps="false"
+        android:textColor="#006aff"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:onClick="onCheckboxClicked"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:onClick="onCheckboxClicked"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:onClick="onCheckboxClicked"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <Button
+        android:id="@+id/main_cctp_bt"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="129dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#ffffff"
+        android:gravity="start"
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="Chipotle chicken\ntacos with\npineapple salsa"
+        android:textAllCaps="false"
+        android:textColor="#006aff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <Button
+        android:id="@+id/main_cppsoup_bt"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#ffffff"
+        android:gravity="start"
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="Courgette, pea\nand pesto Soup"
+        android:textAllCaps="false"
+        android:textColor="#006aff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:onClick="onCheckboxClicked"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <Button
         android:id="@+id/main_bcd_bt"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="169dp"
@@ -55,23 +196,23 @@
         android:textColor="#006aff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658" />
+        app:layout_constraintVertical_bias="0.882" />
 
     <CheckBox
         android:id="@+id/checkBox23"
         android:layout_width="28dp"
         android:layout_height="30dp"
+        android:onClick="onCheckboxClicked"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658"
-        android:onClick="onCheckboxClicked" />
+        app:layout_constraintVertical_bias="0.882" />
 
     <TextView
         android:id="@+id/textView11"
@@ -82,10 +223,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609" />
+        app:layout_constraintVertical_bias="0.834" />
 
     <Button
         android:id="@+id/main_mp_bt"
@@ -135,33 +276,6 @@
         app:layout_constraintVertical_bias="0.467"
         android:onClick="onCheckboxClicked" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="V"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.645"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612" />
-
-    <CheckBox
-        android:id="@+id/checkBox27"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66"
-        android:onClick="onCheckboxClicked" />
-
     <Button
         android:id="@+id/main_vo_bt"
         style="?android:attr/borderlessButtonStyle"
@@ -180,7 +294,34 @@
         app:layout_constraintHorizontal_bias="0.962"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintVertical_bias="0.882" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+
+    <CheckBox
+        android:id="@+id/checkBox27"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:onClick="onCheckboxClicked"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
 
     <Button
         android:id="@+id/main_hummus_bt"
@@ -262,7 +403,7 @@
     <Button
         android:id="@+id/main_agp_bt"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="136dp"
+        android:layout_width="143dp"
         android:layout_height="30dp"
         android:backgroundTint="#ffffff"
         android:gravity="start"
@@ -274,7 +415,7 @@
         android:textColor="#006aff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.169"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.281" />

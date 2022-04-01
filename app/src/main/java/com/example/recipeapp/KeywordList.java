@@ -13,6 +13,12 @@ public class KeywordList extends AppCompatActivity {
     private Button kw_mp_bt;
     private Button kw_agp_bt;
 
+    private Button kw_es_bt;
+    private Button kw_vo_bt;
+
+    private Button kw_bcd_bt;
+    private Button kw_cctp_bt;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +47,38 @@ public class KeywordList extends AppCompatActivity {
                 openRecipe06Activity();
             }
         });
+
+        kw_es_bt = (Button) findViewById(R.id.kw_es_bt);
+        kw_es_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openRecipe07Activity();
+            }
+        });
+
+        kw_vo_bt = (Button) findViewById(R.id.kw_vo_bt);
+        kw_vo_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openRecipe03Activity();
+            }
+        });
+
+        kw_bcd_bt = (Button) findViewById(R.id.kw_bcd_bt);
+        kw_bcd_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openRecipe09Activity();
+            }
+        });
+
+        kw_cctp_bt = (Button) findViewById(R.id.kw_cctp_bt);
+        kw_cctp_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openRecipe05Activity();
+            }
+        });
     }
 
     public void openMainActivity(){
@@ -63,12 +101,12 @@ public class KeywordList extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openRecipe04Activity(){ // direct to recipe04_Activity once it runs
+    public void openRecipe04Activity(){ // direct to Courgette, pea and pesto Soup (recipe04_Activity)
         Intent intent = new Intent(this, recipe04_Activity.class);
         startActivity(intent);
     }
 
-    public void openRecipe05Activity(){ // direct to recipe05_Activity once it runs
+    public void openRecipe05Activity(){ // direct to Chipotle chicken tacos with pineapple salsa (recipe05_Activity)
         Intent intent = new Intent(this, recipe05_Activity.class);
         startActivity(intent);
     }
@@ -88,12 +126,12 @@ public class KeywordList extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openRecipe09Activity(){ // direct to recipe09_Activity once it runs
+    public void openRecipe09Activity(){ // direct to Broccoli Chicken Divan (recipe09_Activity)
         Intent intent = new Intent(this, recipe09_Activity.class);
         startActivity(intent);
     }
 
-    public void openRecipe10Activity(){ // direct to recipe10_Activity once it runs
+    public void openRecipe10Activity(){ // direct to Spiced salmon &\ntomato traybake (recipe10_Activity)
         Intent intent = new Intent(this, recipe10_Activity.class);
         startActivity(intent);
     }

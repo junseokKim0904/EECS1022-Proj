@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
     private Button main_hummus_bt; // to active the recipe01 button
     private Button main_mp_bt; // to active the recipe02 button
     private Button main_vo_bt; // to active the recipe03 button
-    private Button main_04_bt; // to active the recipe04 button
-    private Button main_05_bt; // to active the recipe05 button
+    private Button main_cppsoup_bt; // to active the recipe04 button
+    private Button main_cctp_bt; // to active the recipe05 button
     private Button main_agp_bt; // to active the recipe06 button
     private Button main_es_bt; // to active the recipe07 button
     private Button main_becb_bt; // to active the recipe08 button
     private Button main_bcd_bt; // to active the recipe09 button
-    private Button main_10_bt; // to active the recipe10 button
+    private Button main_sstt_bt; // to active the recipe10 button
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,21 +61,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        main_04_bt = (Button) findViewById(R.id.main_04_bt);
-//        main_04_bt.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) { // once button clicked, it goes to the activity
-//                openRecipe04Activity(); // by calling the method it goes to the activity
-//            }
-//        });
+        main_cppsoup_bt = (Button) findViewById(R.id.main_cppsoup_bt);
+        main_cppsoup_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { // once button clicked, it goes to the activity
+                openRecipe04Activity(); // by calling the method it goes to the activity
+            }
+        });
 
-//        main_05_bt = (Button) findViewById(R.id.main_05_bt);
-//        main_05_bt.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) { // once button clicked, it goes to the activity
-//                openRecipe5Activity(); // by calling the method it goes to the activity
-//            }
-//        });
+        main_cctp_bt = (Button) findViewById(R.id.main_cctp_bt);
+        main_cctp_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { // once button clicked, it goes to the activity
+                openRecipe05Activity(); // by calling the method it goes to the activity
+            }
+        });
 
         main_agp_bt = (Button) findViewById(R.id.main_agp_bt);
         main_agp_bt.setOnClickListener(new View.OnClickListener() {
@@ -108,14 +108,14 @@ public class MainActivity extends AppCompatActivity {
                 openRecipe09Activity(); // by calling the method it goes to the activity
             }
         });
-//
-//        main_10_bt = (Button) findViewById(R.id.main_10_bt);
-//        main_10_bt.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) { // once button clicked, it goes to the activity
-//                openRecipe10Activity(); // by calling the method it goes to the activity
-//            }
-//        });
+
+        main_sstt_bt = (Button) findViewById(R.id.main_sstt_bt);
+        main_sstt_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { // once button clicked, it goes to the activity
+                openRecipe10Activity(); // by calling the method it goes to the activity
+            }
+        });
 
         CheckBox checkBox20 = (CheckBox) findViewById(R.id.checkBox20);
         boolean checked = PreferenceManager.getDefaultSharedPreferences(this)
@@ -174,12 +174,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openRecipe04Activity(){ // direct to recipe04_Activity once it runs
+    public void openRecipe04Activity(){ // direct to Courgette, pea and pesto Soup (recipe04_Activity)
         Intent intent = new Intent(this, recipe04_Activity.class);
         startActivity(intent);
     }
 
-    public void openRecipe05Activity(){ // direct to recipe05_Activity once it runs
+    public void openRecipe05Activity(){ // direct to Chipotle chicken tacos with pineapple salsa (recipe05_Activity)
         Intent intent = new Intent(this, recipe05_Activity.class);
         startActivity(intent);
     }
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openRecipe10Activity(){ // direct to recipe10_Activity once it runs
+    public void openRecipe10Activity(){ // direct to Spiced salmon &\ntomato traybake (recipe10_Activity)
         Intent intent = new Intent(this, recipe10_Activity.class);
         startActivity(intent);
     }
